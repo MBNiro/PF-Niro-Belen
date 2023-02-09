@@ -1,0 +1,78 @@
+nav ul li{display: inline;padding:6px;
+    background-color: white;
+    text-align: center;
+    width: 15%;
+    list-style-type : none;
+    border: 1px solid ;
+    border-radius: 1px;
+    float: right;
+    height: 30px;
+    transition: height 1s, width 2s, background-color 2s, color 2s, transform 2s;
+}
+nav ul li:hover{ 
+    background-color:beige;
+    transform: scale(2,1);
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+a{text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav{
+    width: 90%;
+    height: auto;
+    margin: 40px auto; 
+}
+section article{
+    color: white;
+    position:relative;
+    top: 100px;
+    left: 300px;
+    background-image: url(./Captura\ principal.PNG);
+    text-align: center;
+    width: 50%;
+    list-style-type : none;
+    border: 1px solid ;
+    border-radius: 1px;
+    float: left;
+    font-weight: bold;
+}
+
+body{
+
+    background-image: url(./Captura\ principal.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+H1{background-color: white;
+    color: rgba(5, 86, 56, 0.664);
+    font-style: italic;
+    font-family:monospace;
+}
+.sobre_nosotros{
+    padding: 3px;
+}
+img{
+    padding:30px;
+    width: 50%;
+    height: auto;   
+}
+.tips_info{
+    padding: 2px;
+    text-align: left;
+}
+.home_destinos{
+    list-style-type : none;
+}
+div{
+    position:relative;
+    top: 530px;
+    left: 10px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
