@@ -1,0 +1,108 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: $width;                 
+    margin-bottom: 4rem;
+}
+a{text-decoration: none;
+    color: $color;                
+    font-weight: bold;
+    border: 2px solid;
+    transition: all 2s;
+ &:hover{
+    border-color: $border;        
+}}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: $width;        
+    background-image: url(../imagenes/fondo.PNG);        
+ul{
+    list-style-type: none;
+    width: $width;                
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap:$gap;                   
+}}
+@media (max-width: 474px) {
+    nav{flex-direction: column;}
+}
+img{
+    width: $width;                
+    height: 50%;
+}
+h3{
+    margin-top: 3rem;
+    font-style: oblique;
+}
+.destinos{
+margin-top: $margin;                
+margin-bottom: $margin;             
+}
+.sobrenosotros{
+    margin-top: $margin;            
+}
+h2{ 
+    font-style: oblique;
+    font-size: 90%;
+}
+.tips_info{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.tips_titulo{
+    font-style: oblique;
+    background-color: rgb(197, 236, 223);
+}
+.sobre_nosotros{
+    font-style: oblique;
+}
+.sobrenosotros{
+    margin-top: 9rem;
+    margin-bottom: 12rem; 
+}
+.valija{
+    width: $width;                
+    height: 80%;   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: $width;     
+    background-image: url(../imagenes/fondo.PNG); 
+}
+.ul_contactos{
+    width: $width;                
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:$gap;                   
+}
+.contactos{
+    color: $color;               
+    list-style-type: none;
+    font-weight: bold;
+    border: 2px solid;
+    transition: all 2s;
+}
+.contactos:hover{
+    border-color: $border;
+}
+.formulario_entrega{
+    display: flex;
+    justify-content: flex-center;
+    width: $width;                
+    font-style: oblique;
+}
