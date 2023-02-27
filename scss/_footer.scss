@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    width: $width;     
+    background-image: url(../imagenes/fondo.PNG); 
+}
+.ul_contactos{
+    width: $width;                
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:$gap;                   
+}
+@media (max-width: 315px) {
+    .ul_contactos{flex-direction: column;
+    gap:1rem;}
+}
+.contactos{
+    color: $color;               
+    list-style-type: none;
+    font-weight: bold;
+    border: 2px solid;
+    transition: all 2s;
+}
+.contactos:hover{
+    border-color: $border;
+}
