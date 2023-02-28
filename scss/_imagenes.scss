@@ -1,8 +1,14 @@
-img{
+@mixin tamaño ($width, $height){
+    height: $height;
     width: $width;                
-    height: $width/2;
+}
+
+img{
+    @include tamaño ($width, $width/2 );
 }
 .valija{
-    width: $width;                
-    height: 80%;   
+    @include tamaño ($width, 80% );   
 }
+
+
+

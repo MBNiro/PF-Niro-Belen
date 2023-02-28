@@ -23,22 +23,36 @@ h2 {
 
 .destinos {
   margin-top: 7rem;
-  margin-bottom: 7rem; }
+  margin-bottom: 15rem; }
 
 .sobrenosotros {
-  margin-top: 7rem; }
+  margin-top: 7rem;
+  margin-bottom: 13rem; }
 
-.sobrenosotros {
-  margin-top: 9rem;
-  margin-bottom: 12rem; }
+.infotips_parrafo {
+  margin-bottom: 3rem; }
+
+.formulario_entrega {
+  margin-bottom: 3rem; }
+
+.videos_seccion {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+.tips_seccion {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+.nosotros_seccion {
+  margin-bottom: 6rem; }
 
 img {
-  width: 100%;
-  height: 50%; }
+  height: 50%;
+  width: 100%; }
 
 .valija {
-  width: 100%;
-  height: 80%; }
+  height: 80%;
+  width: 100%; }
 
 * {
   margin: 0;

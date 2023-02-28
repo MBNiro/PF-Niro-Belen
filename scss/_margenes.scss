@@ -1,12 +1,25 @@
 .destinos{
     margin-top: $margin;                
-    margin-bottom: $margin;             
+    margin-bottom: 15rem;             
     }
-    .sobrenosotros{
-        margin-top: $margin;            
+.sobrenosotros{
+        margin-top: $margin;
+        margin-bottom: 13rem; 
     }
-    
-    .sobrenosotros{
-        margin-top: 9rem;
-        margin-bottom: 12rem; 
-    }
+.infotips_parrafo{
+    margin-bottom: 3rem;
+}
+.formulario_entrega{
+    margin-bottom: 3rem;
+}
+.videos_seccion{
+    margin-top: $secciones;                
+    margin-bottom: $secciones;  
+}
+.tips_seccion{
+    margin-top: $secciones;                
+    margin-bottom: $secciones;  
+}
+.nosotros_seccion{
+    margin-bottom: 6rem;
+}
