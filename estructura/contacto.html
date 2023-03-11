@@ -27,7 +27,7 @@
                 <h1>DEJA TU MENSAJE</h1>
                   <form action="#" method="GET" enctype="application/x-www-form-urlencoded">
                 
-                    <legend>CONTACTANOS</legend><br>
+                    <legend>CONTACTANOS</legend>
                     
                     <label for="inputPassword5" class="form-label">Nombre</label>
                     <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" name="nombre">
@@ -41,20 +41,23 @@
                     <label for="inputPassword5" class="form-label">Email</label>
                     <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" name="email">
 
+                    <div class="formulario_contacto">
                     <label for="sexo">HOMBRE:</label>
                     <input type="radio" name="sexo" value="hombre">
             
                     <label for="sexo">MUJER:</label>
-                    <input type="radio" name="sexo" value="mujer"><br><br>
+                    <input type="radio" name="sexo" value="mujer">
+                    </div>
             
-                    <div>QUIERO RECIBIR NOTIFICACIONES</div>
-                    <input type="checkbox" name="acepta" value="1"><br><br>
+                    <div class="notificaciones">QUIERO RECIBIR NOTIFICACIONES</div>
+                    <input type="checkbox" name="acepta" value="1">
             
                     <select name="Destinos">
-                        <option value="LA">LATINO AMERICA</option>
-                        <option value="EU">EUROPA</option>
-                        <option value="EEUU">EEUU</option>
-                    </select><br><br>
+                        <option value="NA">NORTE ARGENTINO</option>
+                        <option value="PT">PATAGONIA</option>
+                        <option value="COSTA">COSTA ARGENTINA</option>
+                        <option value="BSAS">BUENOS AIRES</option>
+                    </select>
                        
             
                     <input type="submit" value="Enviar">

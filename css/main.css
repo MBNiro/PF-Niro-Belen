@@ -46,6 +46,16 @@ h2 {
 .nosotros_seccion {
   margin-bottom: 6rem; }
 
+.formulario_contacto {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+/* NO LO ESTA TOMANDO */
+.notificaciones {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+/* NO LO ESTA TOMANDO */
 img {
   height: 50%;
   width: 100%; }
